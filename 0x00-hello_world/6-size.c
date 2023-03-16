@@ -9,10 +9,10 @@
   */
 int main(void)
 {
-	printf("Size of a char: = %2d bytes \n", sizeof(char));
-	printf("Size of an int: = %2d bytes \n", sizeof(short int));
-	printf("Size of a long int: = %2d bytes \n", sizeof(long int));
-	printf("Size of a long long int: = %2d bytes \n", sizeof(long double));
-	printf("Size of a float: = %2d bytes \n", sizeof(float));
+	printf("Size of a char: = 1 byte\(s\) \n");
+	printf("Size of an int: = 4 byte\(s\) \n");
+	printf("Size of a long int: = 4 byte\(s\) \n");
+	printf("Size of a long long int: = 4 byte\(s\) \n");
+	printf("Size of a float: = 4 byte\(s\) \n");
 	return (0);
 }
