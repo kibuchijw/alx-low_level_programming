@@ -15,4 +15,13 @@
 
 	for (i = 'a' ; i <= 'z' ; i++)
 	{
-		putchar
+		putchar(i);
+	}
+	for (I = 'A' ; I <= 'Z' ; I++)
+	{
+		putchar(I);
+	}
+
+	putchar('\n');
+	return (0);
+}
