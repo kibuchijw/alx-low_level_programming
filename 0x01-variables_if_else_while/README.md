@@ -7,3 +7,5 @@
 5 - Print all single digit numbers of base 10 starting from 0
 6 - Print all single digit numbers of base 10 starting from 0
 7 - Print lowecase alphabet in reverse
+8 - Print all numbers of base 16 in lowercase
+9 - Print all possible combinations of single-digit numbers
