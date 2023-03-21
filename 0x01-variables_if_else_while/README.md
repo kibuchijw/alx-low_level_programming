@@ -6,3 +6,4 @@
 4 - Print the alphabet (except q and e) followed by a new line
 5 - Print all single digit numbers of base 10 starting from 0
 6 - Print all single digit numbers of base 10 starting from 0
+7 - Print lowecase alphabet in reverse
