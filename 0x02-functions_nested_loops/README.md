@@ -9,3 +9,4 @@ A repository meant to practice C-Functions, nested loops
 7 - Print last digit of a number
 8 - Print every minure of the day of Jack Bauer
 9 - Print the 9 times table, starting with 0
+10 - Add two integers and print result
