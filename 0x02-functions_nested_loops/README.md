@@ -6,3 +6,4 @@ A repository meant to practice C-Functions, nested loops
 4 - Check for alphabetic character
 5 - Prints the sign of a number
 6 - Compute the absolute value of an integer
+7 - Print last digit of a number
