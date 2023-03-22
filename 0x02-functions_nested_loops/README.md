@@ -4,3 +4,4 @@ A repository meant to practice C-Functions, nested loops
 2 - Print the alphabet in lowercase, 10 times
 3 - Check for lowercase character
 4 - Check for alphabetic character
+5 - Prints the sign of a number
