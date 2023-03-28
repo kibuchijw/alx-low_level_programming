@@ -4,3 +4,4 @@ The exercises herein, are meant to practice C - Pointer, arrays and strings
 3. Return the length of a string
 4. Print a string followed by a new line
 5. Print a string in reverse followed by a new line
+6. Print every other character of a string, starting with the first character
