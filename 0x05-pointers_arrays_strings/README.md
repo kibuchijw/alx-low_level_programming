@@ -7,3 +7,4 @@ The exercises herein, are meant to practice C - Pointer, arrays and strings
 6. Print every other character of a string, starting with the first character
 7. Print half of a string followed by a new line
 8. Print n elements of an array of integers followed by a new line
+9. Copy the string pointed to by src, including the terminating null byte
