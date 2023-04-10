@@ -3,3 +3,4 @@ This is practice for C programming - Recursion
 2. Print a string in reverse
 3. Return the length of a string
 4. Return the factorial of a given number
+5. Return value of x raised to the power of y
