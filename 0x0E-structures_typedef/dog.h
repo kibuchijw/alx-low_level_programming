@@ -2,7 +2,7 @@
 #define _HEADER_
 
 /**
-  * dog - Attributes of the dog
+  * struct dog - Elements  of the dog
   * @name: Dog name
   * @age: Dog age
   * @owner: Dog owner
