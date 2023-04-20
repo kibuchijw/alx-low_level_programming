@@ -4,3 +4,4 @@ The exercises herein are meant to practice C - Structures, typedef
 3. Function that prints a struct dog
 4. Give the type struct dog a new name, dog_t
 5. Function that creates a new dog
+6. Function that frees memory allocated to new dog
