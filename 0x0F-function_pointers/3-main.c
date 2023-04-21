@@ -5,7 +5,7 @@
 /**
   * main - Entry point
   * @argc: Argument count
-  *@argv: Argument vector
+  * @argv: Argument vector
   *
   *Return: Always 0 (Success)
   */
@@ -24,8 +24,8 @@ int main(int argc, char **argv)
 
 	if (!oprt)
 	{
-			 printf("Error\n");
-			 exit(99);
+		printf("Error\n");
+		exit(99);
 	}
 
 	printf("%d\n",  oprt(atoi(argv[1]), atoi(argv[3])));

@@ -57,10 +57,11 @@ int op_div(int a, int b)
 }
 
 /**
+  * op_mod - Calculates modulus of two integers
+  * @a: Integer 1
+  * @b: Integer 2
   *
-  *
-  *
-  *
+  *Return: a % b
   */
 
 int op_mod(int a, int b)
