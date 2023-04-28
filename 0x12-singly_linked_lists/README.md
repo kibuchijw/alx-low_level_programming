@@ -4,3 +4,4 @@ The exercises herein are meant to practice C - singly linked lists
 3. A function that adds a new node at the beginning of a list
 4. A function that adds a new node at the end of a list
 5. A function that frees a list
+6. A function that prints a string before the main function is executed
