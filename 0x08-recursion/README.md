@@ -7,3 +7,4 @@ This is practice for C programming - Recursion
 6. Return the natural square root of a number
 7. Return 1 if integer is a prime number, otherwise return 0
 8. Return 1 if a string is a palindrome, otherwise return 0
+9. Compare two strings, return 1 if identical, else 0
