@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
   * _calloc - Allocates memory and returns pointer to allocated memory
@@ -11,23 +12,21 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i = 0, l = 0;
-	char *p;
+	void *ptr;
 
 	if (nmemb == 0 || size == 0)
-		return (NULL);
-
-	l = nmemb * size;
-	p = malloc(l);
-
-	if (p == NULL)
-		return (NULL);
-
-	while (i < 1)
 	{
-		p[i] = 0;
-		i++;
+		return (NULL);
 	}
 
-	return (p);
+	ptr = malloc(nmemb * size);
+
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+
+	memset(ptr, 0, nmemb * size);
+
+	return (ptr);
 }
