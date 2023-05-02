@@ -4,3 +4,4 @@ The tasks herein are meant to practice C - malloc, free
 3. Funtion that concatenates two strings
 4. Funcrion that returns a pointer to a 2 dimensional array of integers	
 5. Function that frees a 2 dimensional grid created in task 4
+6. Function that concatenates all the arguments of your program
