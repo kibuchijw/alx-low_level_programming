@@ -5,3 +5,4 @@ The exercises herein are meant to practice C - bit manipulation
 4. 3-set_bit.c - A function that sets the value of a bit to 1 at a given index
 5. 4-clear_bit.c - A function that sets the value of a bit to 0 at a given index
 6. 5-flip_bits.c - A function that returns number of bits you would need to flip to get from one number to another
+7. 100-get_endianness.c - A function that checks the endianness
