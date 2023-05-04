@@ -3,3 +3,4 @@ The exercises herein are meant to practice C - bit manipulation
 2. 1-print_binary.c - A function that prints the binary representation of a number
 3. 2-get_bit.c - A function that returns the value of a bit at a given index
 4. 3-set_bit.c - A function that sets the value of a bit to 1 at a given index
+5. 4-clear_bit.c - A function that sets the value of a bit to 0 at a given index
