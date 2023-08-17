@@ -3,3 +3,7 @@
 	* A continuation of previously handled singly linked lists
 ### Print list
 * Function that prints all the elements of a `dlistint_t` list.
+### List length
+* Function that returns the number of elements in a linked dlistint_t list.
+### Add node
+* Function that adds a new node at the beginnig of a dlistint_t list.
