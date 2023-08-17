@@ -7,3 +7,7 @@
 * Function that returns the number of elements in a linked dlistint_t list.
 ### Add node
 * Function that adds a new node at the beginnig of a dlistint_t list.
+### Add node at the end
+* Function that adda new node at the end of dlistint_t list.
+### Free list
+* Function that frees a dlistint_t list.
