@@ -15,3 +15,5 @@
 * Function that returns the nth node of a `dlistint_t` list.
 ### Sum list
 * Function that returns sum of all data(n) of a `dlistint_t` linked list.
+### Insert at index
+* Function that inserts new node at a given position
