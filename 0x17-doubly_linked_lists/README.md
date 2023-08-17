@@ -4,10 +4,12 @@
 ### Print list
 * Function that prints all the elements of a `dlistint_t` list.
 ### List length
-* Function that returns the number of elements in a linked dlistint_t list.
+* Function that returns the number of elements in a linked `dlistint_t` list.
 ### Add node
-* Function that adds a new node at the beginnig of a dlistint_t list.
+* Function that adds a new node at the beginnig of a `dlistint_t` list.
 ### Add node at the end
-* Function that adda new node at the end of dlistint_t list.
+* Function that adda new node at the end of `dlistint_t` list.
 ### Free list
-* Function that frees a dlistint_t list.
+* Function that frees a `dlistint_t list`.
+### Get node at index
+* Function that returns the nth node of a `dlistint_t` list.
