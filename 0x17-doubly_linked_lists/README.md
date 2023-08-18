@@ -17,3 +17,5 @@
 * Function that returns sum of all data(n) of a `dlistint_t` linked list.
 ### Insert at index
 * Function that inserts new node at a given position
+### Delet at index
+* Function that deletes the node at index `index` of a `dlistint_t` linked list
