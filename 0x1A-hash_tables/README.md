@@ -10,3 +10,5 @@
 * Function that adds an element to the hash table
 ### >>> ht['betty']
 * Function that retrieves a value associated with a key
+### >>> print(ht)
+* Function that prints a hash table
