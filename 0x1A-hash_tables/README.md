@@ -6,3 +6,5 @@
 * A hash function implementing the djb2 algorithm
 ### key -> index
 * Function that gives you the index of a key
+### >>> ht['betty'] = 'cool'
+* Function that adds an element to the hash table
