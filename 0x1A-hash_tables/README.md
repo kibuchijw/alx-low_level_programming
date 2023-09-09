@@ -8,3 +8,5 @@
 * Function that gives you the index of a key
 ### >>> ht['betty'] = 'cool'
 * Function that adds an element to the hash table
+### >>> ht['betty']
+* Function that retrieves a value associated with a key
