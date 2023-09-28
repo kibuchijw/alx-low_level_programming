@@ -2,7 +2,7 @@
 
 /**
  *  main - Entry point
- *   Description: 'the program printst the exact name without using printf'
+ *  Description: 'the program prints the exact name without using printf'
  *
  *  Return: Always 0 (success)
  */
