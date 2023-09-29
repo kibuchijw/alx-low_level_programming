@@ -11,6 +11,7 @@
 | 4. Hello, puts | [4-puts.c](./4-puts.c) |
 | 5. Hello, printf | [5-printf.c](./5-printf.c) |
 | 6. Size is not grandeur, and territory does not make a nation | [6-size.c](./6-size.c) |
+| 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity | [101-quote.c](./101-quote.c) |
 
 ## Requirements
 ### 0. Preprocessor
@@ -39,3 +40,5 @@
 	* Program should compile without warning when using the `-Wall` `gcc` option
 ### 6. Size is not grandeur, and territory does not make a nation
 * Write a C program that prints the size of various types on the computer it is compiled and run on.
+### 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+* Write a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error.
