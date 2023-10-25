@@ -1,0 +1,26 @@
+# Define variables
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+.PHONY: all clean oclean fclean re
+
+# Define all rules
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Cleanup temporary files, executable, and object files
+clean:
+	$(RM) *~ $(NAME)
+
+# Clean object files
+oclean:
+	$(RM) $(OBJ)
+
+# Clean everything
+fclean: clean oclean
+
+# Force recompilation of all source files
+re: fclean all
