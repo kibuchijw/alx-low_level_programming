@@ -12,6 +12,8 @@
 | 7. Smile in the mirror | [7-print_tebahpla.c](./7-print_tebahpla.c) |
 | 8. Hexadecimal | [8-print_base16.c](./8-print_base16.c) |
 | 9. Patience, persistence and perspiration make an unbeatable combination for success | [9-print_comb.c](./9-print_comb.c) |
+| 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need | [100-print_comb3.c](./100-print_comb3.c) |
+| 11. The success combination in business is: Do what you do better... and: do more of what you do... | [101-print_comb4.c](./101-print_comb4.c) |
 
 ## Tasks
 ### 0. Positive anything is better than negative nothing
@@ -63,4 +65,22 @@
 	* Numbers must be separated by `,`, followed by a space
 	* Numbers should be printed in ascending order
 	* Only the `putchar` function is allowed and can be used a maximum of four times
+	* Any variable of type `char` is not allowed
+### 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+* A program that prints all possible combinations of two digits.
+	* Numbers must be separated by `,`, followed by a space
+	* The two digits must be different
+	* `01` and `10` are considered the same combination of the two digits `0` and `1`
+	* Print only the smallest combination of two digits
+	* Numbers should be printed in ascending order, with two digits
+	* Only the `putchar` function is allowed and can be used a maximum of five times
+	* Any variable of type `char` is not allowed
+### 11. The success combination in business is: Do what you do better... and: do more of what you do...
+* A program that prints all possible different combinations of three digits
+	* Numbers must be separated by `,`, followed by a space
+	* The three digits must be different
+	* `012`, `120`, `102`, `021`, `201`, `210` are considered the same combination of the three digits `0`, `1` and `2`
+	* Print only the smallest combination of three digits
+	* Numbers should be printed in ascending order, with three digits
+	* Only the `putchar` function is allowed and can be used a maximum of six times
 	* Any variable of type `char` is not allowed
