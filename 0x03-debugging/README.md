@@ -6,6 +6,7 @@
 * What is debugging
 * What are some methods of debugging manually
 * How to read the error messages
+
 | Task | File |
 | ---- | ---- |
 | 0. Multiple mains | [0-main.c](./0-main.c), [main.h](./main.h) |
