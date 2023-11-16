@@ -1,4 +1,21 @@
-## C - Dynamic Libraries
-* The tasks herein are meant to practice the creation and use of dyanmic libraries in C
-### A library is not a luxury but one of the necessities of life
-* Creating a dynamic library with the provided function prototypes
+# 0x18. C - Dynamic libraries
+
+## Learning Objectives
+
+### General
+
+* What is a dynamic library, how does it work, how to create one, and how to use it
+* What is the environment variable `$LD_LIBRARY_PATH` and how to use it
+* What are the differences between static and shared libraries
+* Basic usage `nm`, `ldd`, `ldconfig`
+
+| Task | File |
+| ---- | ---- |
+| 0. A library is not a luxury but one of the necessities of life | [libdynamic.so](./libdynamic.so), [main.h](./main.h) |
+| 1. Without libraries what have we? We have no past and no future | [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) |
+
+## Tasks
+### 0. A library is not a luxury but one of the necessities of life
+* Create a dynamic library `libdynamic.so` containing all functions listed
+### 1. Without libraries what have we? We have no past and no future
+* Create a script that creates a dynamic library called `liball.so` from all the `.c` files that are in the current directory.
