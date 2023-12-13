@@ -31,7 +31,7 @@ int binary_search(int *array, size_t size, int value)
 		for (i = left; i <= right; ++i)
 		{
 			/* Printing the current subarray being searched */
-			printf("%d ", array[i]);
+			printf("%d, ", array[i]);
 		}
 		printf("\n");
 

@@ -27,11 +27,11 @@ int binary_search(int *array, size_t size, int value)
 	{
 		mid = left + (right - left) / 2;
 
-		printf("Searching in subarray: ");
+		printf("Searching in array: ");
 		for (i = left; i <= right; ++i)
 		{
 			/* Printing the current subarray being searched */
-			printf("%d ", array[i]);
+			printf("%d, ", array[i]);
 		}
 		printf("\n");
 
