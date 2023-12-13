@@ -12,6 +12,7 @@
 | ---- | ---- |
 | 0. Linear search | [0-linear.c](./0-linear.c) |
 | 1. Binary search | [1-binary.c](./1-binary.c) |
+| 2. Big O #0 | [2-O](./2-O) |
 
 ## Tasks
 ### 0. Linear Search
@@ -34,3 +35,5 @@
 	* You can assume that `value` won't appear more than once in `array`
 	* If `value` is not present in `array` or if `array` is `NULL`, your function must return `-1`
 	* You must print the array being searched every time it changes.(e.g.at the beginning and when you search a subarray)
+### 2. Big O #0
+* What is the `time complexity` (worst case) of a linear search in an array of size `n`?
