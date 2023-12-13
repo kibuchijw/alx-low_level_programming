@@ -15,6 +15,7 @@
 | 2. Big O #0 | [2-O](./2-O) |
 | 3. Big O #1 | [3-O](./3-O) |
 | 4. Big O #2 | [4-O](./4-O) |
+| 5. Big O #3 | [5-O](./5-O) |
 
 ## Tasks
 ### 0. Linear Search
@@ -43,3 +44,5 @@
 * What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size `n`?
 ### 4. Big O #2
 * What is the `time complexity` (worst case) of a binary search in an array of size `n`?
+### 5. Big O #3
+* What is the `space complexity` (worst case) of a binary search in an array of size `n`?
