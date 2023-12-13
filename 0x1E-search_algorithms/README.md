@@ -16,6 +16,7 @@
 | 3. Big O #1 | [3-O](./3-O) |
 | 4. Big O #2 | [4-O](./4-O) |
 | 5. Big O #3 | [5-O](./5-O) |
+| 6. Big O #4 | [6-O](./6-O) |
 
 ## Tasks
 ### 0. Linear Search
@@ -46,3 +47,18 @@
 * What is the `time complexity` (worst case) of a binary search in an array of size `n`?
 ### 5. Big O #3
 * What is the `space complexity` (worst case) of a binary search in an array of size `n`?
+### 6. Big O #4
+* What is the space complexity of this function/algorithm?
+```
+int **allocate_map(int n, int m)
+{
+     int **map;
+
+     map = malloc(sizeof(int *) * n);
+     for (size_t i = 0; i < n; i++)
+     {
+          map[i] = malloc(sizeof(int) * m);
+     }
+     return (map);
+}
+```
