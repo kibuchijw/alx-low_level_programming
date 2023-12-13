@@ -16,9 +16,7 @@ int binary_search(int *array, size_t size, int value)
 	int mid, left, right, i;
 
 	if (array == NULL)
-	{
 		return (-1); /* Return -1 if the array is NULL */
-	}
 
 	left = 0;
 	right = size - 1;
@@ -31,26 +29,21 @@ int binary_search(int *array, size_t size, int value)
 		for (i = left; i <= right; ++i)
 		{
 			/* Printing the current subarray being searched */
-			printf("%d, ", array[i]);
+			if (i != right)
+				printf("%d, ", array[i]);
+			else
+				printf("%d", array[i]);
 		}
 		printf("\n");
 
 		if (array[mid] == value)
-		{
-			/* Return the index if the value is found */
-			return (mid);
-		}
+			return (mid); /* Return the index if the value is found */
 		else if (array[mid] < value)
-		{
-			/* Update the left pointer */
-			left = mid + 1;
-		}
+			left = mid + 1; /* Update the left pointer */
 		else
-		{
-			/* Update the right pointer */
-			right = mid - 1;
-		}
+			right = mid - 1; /* Update the right pointer */
 	}
 
 	return (-1); /* Return -1 if the value is not found */
 }
+
