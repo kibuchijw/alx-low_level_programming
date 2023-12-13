@@ -13,6 +13,7 @@
 | 0. Linear search | [0-linear.c](./0-linear.c) |
 | 1. Binary search | [1-binary.c](./1-binary.c) |
 | 2. Big O #0 | [2-O](./2-O) |
+| 3. Big O #1 | [3-O](./3-O) |
 
 ## Tasks
 ### 0. Linear Search
@@ -37,3 +38,5 @@
 	* You must print the array being searched every time it changes.(e.g.at the beginning and when you search a subarray)
 ### 2. Big O #0
 * What is the `time complexity` (worst case) of a linear search in an array of size `n`?
+### 3. Big O #1
+* What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size `n`?
