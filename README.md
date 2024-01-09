@@ -77,3 +77,13 @@ To run this project locally, do the following:
 ```
     ./6-size
 ```
+
+# Author :pencil2:
+
+Joseph Kibuchi <[kibuchijw](https://github.com/kibuchijw/)>
+
+# Acknowledgements :mortar_board:
+
+All work contained in this project was completed as part of [ALX Africa Software Engineering](https://www.alxafrica.com/) program. ALX is a part of the Sand ecosystem, an innovative global information technology services and consulting company. They are building a new generation of agile digital leaders for the 21st century by providing people with access to world-class skills training needed to build impactful careers in high-growth industries. Their programmes empower the next generation of tech innovators, entrepreneurs, and business leaders with rigorous, real-world coursework.
+
+<!---![ALX](../kibuchijw/images/ALX_Wakanda.jpg){:style="display:block; margin-left:auto; margin-right:auto"} -->
